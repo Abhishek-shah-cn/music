@@ -1,0 +1,482 @@
+body{
+	background-color:#0c1027;
+	 background-size: cover;
+    background-attachment: fixed;
+ 
+
+}
+
+
+/*Header section-------------------------------------------------------------------*/
+.navlist{
+	display: flex;
+}
+
+.Top-header ul{
+	 font-size: 13px;
+    list-style: none;
+    margin: 0 0 0 -0.8125em;
+    padding-left: 0;
+    margin-left: 25px;
+}
+.navlist li{
+	float: left;
+	display: block;
+	text-align: center;
+	padding:5px 40px; 
+	 position: relative;
+    margin-left: 27px;
+    cursor: pointer;
+}
+.navlist p{
+	  font-family: 'Architects Daughter';
+	  
+
+}
+.fav h3{
+	padding-left: 50px;
+	font-size: 20px;
+	font-family: 'Baloo Bhaina 2', cursive;
+
+}
+.music-name{
+	line-height: 1px;
+
+}
+
+.example{
+	padding-left: 250px;
+	 margin:25px;
+	 max-width:300px;
+	}
+.example input{
+		height: 30px;
+	width: 300px;
+	margin-left: -50px;
+	border-radius: 7px;
+	background-color: #0c1027;
+	color: white;
+}
+.example span{
+	border-radius: 7px;
+	margin-left: -40px;
+}
+.example i{
+	color: white;
+}
+h2,h3,h4,p{
+	color: white;
+}
+.navlist li img{
+	position: relative;
+}
+
+.Top-header h3 h4 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+.icon{
+    color: white;
+	font-size: 30px;
+	margin: 25px;
+	bottom: 10px;
+}
+.mypic img{
+	
+	border-radius:50%;
+}
+
+/*--------------------------------------------------------------------*/
+.phototxt-container{
+	display: flex;
+	width: 800px;
+	height: 300px;
+	margin-left: 170px;
+
+}
+.tex2-name{
+	font-size: 25px;
+	margin-left: 10px;
+	font-family: 'Muli', sans-serif;
+	
+}
+.tex3-name{
+	margin-top:-50px;
+	margin-left: 200px;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+.Text-container {
+   background-color: #141b41;
+		width: 350px;
+	height: 350px;
+
+}
+.Text-container p{
+	width: 320px;
+	margin-left: 10px;
+	color: #696d86;
+	}
+.photo img{
+   width: 300px;
+   height: 350px;
+}
+.playall{
+	color: white;
+	margin: 50px;
+	font-size: 15px;
+	cursor: pointer;
+	border: none;
+	padding:5px 35px;
+	font-family:"Montserrat",sans-serif;
+	border-radius: 7px;
+	background-image:linear-gradient(to left,#3498db,#1abc9c,#9b59b6) 
+}
+.follow{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.tracks{
+	font-size: 12px;
+	letter-spacing: 1px;
+
+}
+/*---------------------------------------------------------------------------------------*/
+.playlist{
+
+	margin-top: 100px;
+}
+.play{
+    cursor: pointer;
+	width: 650px;
+	height: 60px;
+	background-color: #1a1e33;
+	margin-left:170px;
+	display: flex;
+    margin-top: 10px;
+}
+.play i{
+	margin-top: 25px;
+	color: white;
+	margin-left: 290px;
+}
+.plus i{
+	width: 0%;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+.img9{
+
+	padding: 10px;
+	margin-left: 20px;
+	width: 45px;
+	height: 45px;
+
+}
+.name{
+	width: 100%;
+	font-size: 18px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.content{
+	width: 100%;
+	margin-left: -55px;
+   margin-top: 35px;
+   color: #696d86;
+}
+.num{
+	width: 100%;
+	font-size: 15px;
+	 margin-left: 100px;
+	 color: #696d86;
+}
+.num1{
+	font-size: 15px;
+	color: #696d86;
+	margin-left: 10px;
+}
+/*=============================================*/
+
+.music-footer{
+   height: 40px;
+   position: fixed;
+   left:0px;
+   bottom:0%;
+   width: 100%;
+   background-color:#282828;
+   display: flex;
+
+   opacity: 0.8;
+   color: white;
+   display: flex;
+   
+}
+.play-image img{
+    width: 50px;
+    height: 48px;
+    padding: 2px;
+    margin-left: 105px;
+    margin-bottom:2px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+
+}
+.heart{
+	margin-top: 5px;
+	margin-left: -40px;
+    cursor: pointer;
+}
+.player{
+	margin-right:60px;
+
+}
+.backword{
+	margin-right: 60px;
+	opacity: 0.5;
+	}
+.random{
+	margin-right:60px;
+}
+.repeat{
+    margin-right:60px;
+}
+.forword{
+margin-right:60px;
+opacity: 0.5;
+}
+.vidio{
+  margin-right:60px;
+}
+.speker{
+margin-right:60px;
+}
+.mic {
+margin-right:60px;
+}
+.youtube{
+	margin-right:60px;
+}
+.play-icons{
+	margin-top: 5px;
+	display: flex;
+	font-size: 25px;
+	margin-left:100px;
+	cursor: pointer;
+}
+.play-icons i{
+    
+	color: white;
+
+}
+.play-controls{
+	width: 300px;
+	height: 60px;
+	display: inline-flex;
+}
+.controls{
+    width: 300px;
+    height: 75px;
+    display: flex;
+    margin-left: 100px;
+}
+.song-name{
+	width: 150px;
+	height: 50px;
+}
+.song-name h4{
+	margin-top: 0px;
+	margin-left: -90px;
+	font-size: 18px;
+	letter-spacing: 0.6px;
+	font-family: 'Comic Neue', cursive;
+}
+.song-name p{
+	width: 200px;
+	margin-top: -25px;
+	margin-left: -90px;
+	font-size: 13px;
+	font-family: 'Comic Neue', cursive;
+}
+
+
+
+
+/*------------------------------------------------------------*/
+main{
+	
+    margin-top: 50px;
+	width: 70%;
+	display: inline-block;
+	/*background-color:#02aab0   #bdc3c7 ;*/
+
+	/*background-color: #091f36 ;*/
+}
+
+aside{
+	width: 380px;
+     height: inherit;
+	display: inline-block;
+   
+  vertical-align: top;
+	height: 900px;
+	margin-left: 0px;
+
+}
+
+aside ul{
+
+	list-style: none;
+
+	margin-top: 10px;
+
+}
+
+.release-img{
+	margin-left: -100px;
+	width: 100px;
+	height: 100px;
+}
+.release1{
+	
+	margin-left: 120px;
+}
+.inner-head{
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -80px;
+	margin-left: 20px;
+}
+.content-release{
+	font-size: 15px;
+	margin-top: -15px;
+	margin-left: 20px;
+	color: #696d86;
+	font-family: 'Roboto', sans-serif;
+}
+.song-time{
+  margin-left: 200px;
+  margin-top: -50px;
+  font-size: 12px;
+  color: #696d86;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+.circle{
+	margin-top: -50px;
+	margin-left: 200px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.release2{
+	margin-left: 120px;
+	margin-top: 100px;
+}
+.release3{
+	margin-left: 120px;
+	margin-top: 100px;
+}
+.head-aside{
+	margin-left: 10px;
+}
+
+.aside-head{
+  
+	font-size: 30px;
+	font-family: 'Manrope', sans-serif;
+}
+.aside-p{
+	margin-top: -50px;
+	margin-left: 300px;
+	color: #696d86;
+
+}
+.Songlist-aside{
+	margin-top: 120px;
+
+}
+.Songlist-aside ul li{
+	margin-bottom: 10px;
+}
+.anchor{
+	text-decoration: none;
+/*	line-height: 70px;*/
+
+	font-size: 18px;
+	
+
+	color:white;
+}
+
+.heartq-aside i{
+	margin-top: 15px;
+	position: absolute;
+	right: 60px;
+	color: white;
+	cursor: pointer;
+}
+.im-aside{
+
+	height: 30px;
+	width: 30px;
+    border-radius: 1px;
+	display: inline-block;
+	color: white;
+	
+}
+.im-aside img{
+	border-radius: 7px;
+}
+.name-aside{
+
+	height: 18px;
+
+	display: inline-block;
+	
+	position: absolute;
+    text-align: center;
+
+	margin-left: 20px;
+
+	color: white;
+
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+.md-aside{
+
+	display: inline-block;
+    margin-top: 25px;
+	margin-left: 22px;
+	color: #696d86;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px)
+{
+	aside{
+	display: none;
+
+	}
+	main{
+		width: 100%;
+	}
+	
+
+}
